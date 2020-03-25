@@ -10,6 +10,7 @@ import pandas as pd
 from tabulate import tabulate
 
 
+# TODO: Implement `OUTPUT_FILE` as default output file name if not provided as commandline args
 OUTPUT_FILE = 'todos.csv'
 SEARCH_FOR  = '# TODO'
 
