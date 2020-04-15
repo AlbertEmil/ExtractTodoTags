@@ -4,7 +4,6 @@
 
 # TODO: Use pathlib instead of os.path and os.listdir()
 import os
-import re
 
 import pandas as pd
 from tabulate import tabulate
@@ -12,7 +11,7 @@ from tabulate import tabulate
 
 # TODO: Implement `OUTPUT_FILE` as default output file name if not provided as commandline args
 OUTPUT_FILE = 'todos.csv'
-SEARCH_FOR  = '# TODO'
+SEARCH_FOR = '# TODO'
 
 
 def _validate_filepath(parser, arg):
